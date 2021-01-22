@@ -1,0 +1,20 @@
+name: Python Markdown Documentation
+description: Creates markdown files based on python docstrings
+inputs:
+  src_path:
+    description: "Path to the source folder containing python code"
+    required: false
+    default: "."
+  dst_path:
+    description: "Directory to create markdown documents in"
+    required: false
+    default: docs
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.src_path }}
+    - ${{ inputs.dst_path }}
+branding:
+  icon: "book-open"
+  color: "blue"
