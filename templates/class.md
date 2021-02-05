@@ -15,8 +15,9 @@
 #### Compatibility
 Version |
 --- |
-{{ function.compatibility }}{% endif %}
-
+{% for compat in function.compat %}{{ compat.version }} |
+{% endfor %}
+{% endif %}
 
 {% if function.params %}
 #### Parameters
