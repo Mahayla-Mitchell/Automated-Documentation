@@ -1,4 +1,4 @@
-- syntax: "@param name description"
+- syntax: "@param name units description"
   collection: params
 - syntax: "@throws type message"
   collection: throws
