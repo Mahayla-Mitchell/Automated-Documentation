@@ -1,12 +1,6 @@
 # {{ name }}
 {% if authors %}Authors: **{{ authors | join(', ') }}**{% endif %}
 
-{% if compatibility %}
-#### Compatibility
-{% for compat in compatibility %}Versions:**{{ compat.version }}** 
-{% endfor %}
-{% endif %}
-
 {{ description }}
 
 ## Methods
@@ -16,6 +10,13 @@
 {% if function.authors %}Authors: **{{ function.authors | join(', ') }}**{% endif %}
 
 {{ function.description }}
+
+{% if function.compatibility %}
+#### Compatibility
+{% for compat in function.compatibility %}Versions:**{{ compat.version }}** 
+{% endfor %}
+{% endif %}
+
 {% if function.params %}
 #### Parameters
 name | description | units
