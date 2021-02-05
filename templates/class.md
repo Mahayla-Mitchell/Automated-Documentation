@@ -4,7 +4,7 @@
 {% if compatibility %}
 #### Compatibility
 {% for compat in compatibility %}Versions:**{{ compat.version }}** 
-
+{% endfor %}
 
 {{ description }}
 
