@@ -3,13 +3,9 @@
 
 {{ description }}
 
-{% if compatibility %}
 #### Compatibility
-Version |
---- |
-{% for compat in compatibility %}{{ for version in compat.version }}{{{version}}} | 
-{% endfor %}
-{% endif %}
+{% if compatibility %}Versions: **{{ compatability | join(', ') }}**{% endif %}
+
 
 ## Methods
 
