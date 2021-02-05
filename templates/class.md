@@ -1,11 +1,11 @@
 # {{ name }}
 {% if authors %}Authors: **{{ authors | join(', ') }}**{% endif %}
 
-{{ description }}
-
+{% if compatibility %}
 #### Compatibility
-{% if compatibility %}Versions: **{{ compatability | join(', ') }}**{% endif %}
+Versions: **{{ compatability | join(', ') }}**{% endif %}
 
+{{ description }}
 
 ## Methods
 
