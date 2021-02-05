@@ -3,7 +3,8 @@
 
 {% if compatibility %}
 #### Compatibility
-Versions: **{compatibility.version}**
+{% for compat in compatibility %}Versions:**{{ compat.version }}** 
+
 
 {{ description }}
 
