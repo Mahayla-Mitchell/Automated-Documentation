@@ -3,7 +3,7 @@
 
 {% if compatibility %}
 #### Compatibility
-Versions: **{{ compatibility | join(', ') }}**{% endif %}
+Versions: **{compatibility.version}**
 
 {{ description }}
 
