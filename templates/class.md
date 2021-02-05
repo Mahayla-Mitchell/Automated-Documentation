@@ -14,7 +14,7 @@
 #### Parameters
 name | description | units
 --- | --- | ---
-{% for param in function.params %}{{ param.name }} | {{ param.description }} | {{ param.unit }}
+{% for param in function.params %}{{ param.name }} | {{ param.description }} | {{ param.units }}
 {% endfor %}
 {% endif %}
 
