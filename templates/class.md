@@ -13,11 +13,7 @@
 
 {% if function.compatibility %}
 #### Compatibility
-Version |
---- |
-{% for compat in function.compatibility %}{{ compat.version }} |
-{% endfor %}
-{% endif %}
+Versions: **{{ function.compatibility | join(', ') }}**{% endif %}
 
 {% if function.params %}
 #### Parameters
