@@ -1,6 +1,6 @@
 - syntax: "@param name units description"
   collection: params
-- syntax: "@compat version"
+- syntax: "@compat version language"
   collection: compatibility
 - syntax: "@throws type message"
   collection: throws
