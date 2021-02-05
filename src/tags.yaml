@@ -1,5 +1,7 @@
 - syntax: "@param name units description"
   collection: params
+- syntax: "@compat version"
+  collection: compatability
 - syntax: "@throws type message"
   collection: throws
 - syntax: "@author author"
