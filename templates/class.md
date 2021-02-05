@@ -7,7 +7,7 @@
 #### Compatibility
 Version |
 --- |
-{% for compat in compatibility %}{{% for version in compat.version %}}{{{version}}} | 
+{% for compat in compatibility %}{{ for version in compat.version }}{{{version}}} | 
 {% endfor %}
 {% endif %}
 
