@@ -3,6 +3,14 @@
 
 {{ description }}
 
+{% if compatibility %}
+#### Compatibility
+Version |
+--- |
+{% for compat in compatibility %}{{ compat.version }} | 
+{% endfor %}
+{% endif %}
+
 ## Methods
 
 {% for function in functions %}
