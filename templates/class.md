@@ -12,9 +12,9 @@
 {{ function.description }}
 {% if function.params %}
 #### Parameters
-name | description | default
+name | description | units
 --- | --- | ---
-{% for param in function.params %}{{ param.name }} | {{ param.description }} | {{ param.description }}
+{% for param in function.params %}{{ param.name }} | {{ param.description }} | {{ param.unit }}
 {% endfor %}
 {% endif %}
 
