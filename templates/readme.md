@@ -5,8 +5,6 @@
 **[{{class.name}}]({{class.href}})**: {{ class.description }}
 {% endfor %}
 
-![Build Status](https://circleci.com/gh/<your github name>/<repo name>.png?circle-token=:circle-token)
-
 ## Functions
 {% for function in functions %}
 ### {{ function.name }}
