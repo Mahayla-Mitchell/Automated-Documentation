@@ -15,12 +15,6 @@
 #### Compatibility
 Versions: **{{ function.compatibility | join(', ') }}**{% endif %}
 
-#### Parameters Test
-{% if function.params %}
-{{ param.name }} 
-{{ param.description }}
-{% endif %}
-
 {% if function.params %}
 #### Parameters
 name | description | units
