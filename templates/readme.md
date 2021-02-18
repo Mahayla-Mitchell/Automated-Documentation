@@ -1,5 +1,7 @@
 # {{ title }}
 
+[![CIBS](https://img.shields.io/badge/CIBS-Okstate-orange)](https://ceat.okstate.edu/mae/research/cibs/)
+
 ## Classes
 {% for class in classes %}
 **[{{class.name}}]({{class.href}})**: {{ class.description }}
