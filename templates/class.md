@@ -3,8 +3,6 @@
 
 {{ description }}
 
-`<addr>`
-
 ## Methods
 
 {% for function in functions %}
@@ -31,3 +29,5 @@ name | description | units
 {% endfor %}
 {% endif %}
 {% endfor %}
+
+#### Working Example
