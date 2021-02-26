@@ -32,4 +32,4 @@ name | description | units
 
 #### Working Example
 {% if example %}
-{{ example | join(\n)}}{% endif %}
+{{ example | join('\n')}}{% endif %}
