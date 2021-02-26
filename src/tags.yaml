@@ -10,5 +10,5 @@
   collection: return
 - syntax: "@returns message"
   collection: return
- - syntax: "@example code"
+- syntax: "@example code"
   collection: example 
