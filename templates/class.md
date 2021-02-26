@@ -31,3 +31,5 @@ name | description | units
 {% endfor %}
 
 #### Working Example
+{% if function.example %}
+{{ function.compatibility }}{% endif %}
