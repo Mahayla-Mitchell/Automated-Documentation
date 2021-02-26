@@ -3,14 +3,6 @@
 
 {{ description }}
 
-```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
 ## Methods
 
 {% for function in functions %}
