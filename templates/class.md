@@ -3,6 +3,7 @@
 
 {{ description }}
 
+![Test](/../../workflows/Test/badge.svg)
 ## Methods
 
 {% for function in functions %}
