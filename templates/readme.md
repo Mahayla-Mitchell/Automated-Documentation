@@ -1,7 +1,7 @@
 # {{ title }}
 
 [![CIBS](https://img.shields.io/badge/CIBS-Okstate-orange)](https://ceat.okstate.edu/mae/research/cibs/)
-![Current Build](../../workflows/Test/badge.svg)
+![](../../workflows/Test/badge.svg)
 
 ## Classes
 {% for class in classes %}
