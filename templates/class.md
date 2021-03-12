@@ -31,5 +31,5 @@ name | description | units
 {% endif %}
 {% endfor %}
 
-[My image](/Images/img.JPG)
+![My image](/Images/img.JPG)
 
