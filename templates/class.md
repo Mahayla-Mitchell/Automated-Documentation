@@ -31,6 +31,5 @@ name | description | units
 {% endif %}
 {% endfor %}
 
-#### Working Example
-{% if example %}
-{{ example }}{% endif %}
+[My image](/Images/img.jpg)
+
