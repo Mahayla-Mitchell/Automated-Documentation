@@ -1,6 +1,7 @@
 # {{ title }}
 
 [![CIBS](https://img.shields.io/badge/CIBS-Okstate-orange)](https://ceat.okstate.edu/mae/research/cibs/)
+[![CIBS](https://img.shields.io/badge/Repository-Guidelines-green)](https://github.com/CIBS-Okstate/CIBS/blob/main/RepositoryGuidelines.pdf)
 
 ## Classes
 {% for class in classes %}
